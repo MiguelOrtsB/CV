@@ -1,0 +1,66 @@
+.foto-header{
+  height: 200px;
+  width: 200px;
+}
+
+.botonInfo{
+  outline: none;
+  border: 0;
+  background-color: white;
+}
+
+.logo-info{
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.logo-estudios{
+  height: 40px;
+  width: 40px;
+}
+
+.logo-experiencia{
+  height: 40px;
+  width: 40px;
+}
+
+.logo-habilidades{
+  height: 40px;
+  width: 40px;
+}
+
+.navbar{
+  margin-top: 44px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.insta{
+  height: 40px;
+  width: 40px;
+  margin-left: 650px;
+}
+
+.git{
+  height: 40px;
+  width: 40px;
+  margin-right: 650px;
+  cursor: pointer;
+}
+
+.insta:hover{
+  transform: scale(1.1) translate(10px, -10px);
+}
+
+.git:hover{
+  transform: scale(1.1) translate(10px, -10px);
+}
+
+.boton:hover{
+  background: linear-gradient(
+        45deg,
+        hsla(168, 85%, 52%, 0.5),
+        hsla(263, 88%, 45%, 0.5) 100%
+      );
+}
